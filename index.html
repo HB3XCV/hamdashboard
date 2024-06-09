@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Refresh" content="300" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Victor Mono|Audiowide|Bebas Neue" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Ham Radio Dashboard</title>
+    <script src="./js/wheelzoom.js"></script>
+    <script src="./config/config.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body onload="start()">
+    <div id="iFrameContainer" class="iframe-container">
+      <iframe class="full-screen" id="FullScreen" src="" title="Zoom"></iframe>
+    </div>
+    <div id="imgZoom" class="img-zoom">
+      <img class="image-large" id="ImageLarge" alt="pic" ondblclick="larger(event);">
+    </div>
+    <div id="myMenu" class="menu"></div>
+    <div id="myMenuR" class="menuR"></div>
+    <div id="defaultFrame" class="default-frame">
+      <div class="top-bar">
+        <div id="topBarLeft" class="child" style="text-align: left; padding-left: 7px; color: blanchedalmond">&nbsp;</div>
+        <div id="topBarCenter" class="child" style="text-align: center; color: rgb(0, 119, 255)">&nbsp;</div>
+        <div id="topBarRight" class="child" style="text-align: right; padding-right: 5px; color: aquamarine">&nbsp;</div>
+      </div>
+      <div id="dash" class="dashboard"></div>
+    </div>
+  </body>
+</html>

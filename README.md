@@ -3,11 +3,11 @@
 [Hamdash Demo](https://va3hdl.github.io/hamdash/)  -- Test it before download
 
 ### Instructions:
-1. Just download the files from the Github repository (hamdash.html, config.js, and wheelzoom.js) and keep them together on the same folder.
-2. Open hamdash.html with any browser of your preference and you done.
-3. With any text editor (like Notepad) you can change the source images (can be more than one per box) or the menu options from the config.js file.
+1. Just clone the the repository by using the ```git clone https://github.com/hb3xcv/hamdashboard.git```.
+2. Open index.html with any browser of your preference and you done.
+3. With any text editor (like Notepad) you can change your personal details, the source images (can be more than one per box) or the menu options from the config.js file in the config folder.
 
-[YouTube - Configuration instructions contributed by Jason KM4ACK](https://youtu.be/9ZZXg60tN-o)
+[YouTube - Configuration instructions contributed by Jason KM4ACK](https://youtu.be/9ZZXg60tN-o) (OM details are not shown in the video)
 
 ### Quick Help:
 * Double click on an image to expand to full screen.
@@ -17,7 +17,7 @@
 
 Is that easy!
 
-73 de Pablo, VA3HDL
+73 de HB3XCV
 
 ### Fix for Pi-Star iFrame embedding issues:
 This error can occur if the server has certain security measures in place, such as the x-frame-options header, which prevents its content from being embedded on other websites using iframes.

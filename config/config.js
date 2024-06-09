@@ -1,4 +1,9 @@
-const topBarCenterText = `VA3HDL - FN04ga`;
+//OM
+const callsign = "ABC123"
+const grid = "XXYYZZ"
+const coords = {n: "0.00000", o: "0.00000"}
+
+const topBarCenterText = callsign + ` - ` + grid;
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
